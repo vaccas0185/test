@@ -15,11 +15,9 @@
     - [3.4.2. 設定](#342-設定)
   - [3.5. 使用方法](#35-使用方法)
     - [3.5.1. コマンド一覧](#351-コマンド一覧)
-  - [3.6. トラブルシューティング](#36-トラブルシューティング)
 - [4. 特記事項](#4-特記事項)
 - [5. 参考資料](#5-参考資料)
-
-
+  
 # 1. プロジェクト概要
 [コンフルエンス](aaa)を参照してください
 
@@ -83,13 +81,13 @@ TODO: パッケージ管理の検証が終わったら
 その他のパッケージ、バージョンについては`pyproject.toml`を参照してください。
   
 ## 2.4. ディレクトリ構成
-
-<!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-<details>
-  <summary>ディレクトリ構成</summary>
-
+.
+├── gas(XXX)
+└── src(XXX)  
+<details>  
+  <summary>詳細</summary>
+  
   ```bash
-  ❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
   .
   ├── .devcontainer
   │   └── devcontainer.json
@@ -137,9 +135,10 @@ TODO: パッケージ管理の検証が終わったら
       ├── main.tf
       ├── network.tf
       └── variables.tf
+  ```  
 
-<p align="right">(<a href="#top">トップへ</a>)</p>
-
+</details>
+  
 # 3. 環境構築
   
 ## 3.1. python
@@ -198,10 +197,6 @@ TODO: パッケージ管理の検証が終わったら
   
 リモートデバッグ を使用する際は以下の url を参考に設定してください<br>
 [Django のコンテナへリモートデバッグしよう！](https://qiita.com/shun198/items/9e4fcb4479385217c323)
-
-## 3.6. トラブルシューティング
-  
-<p align="right">(<a href="#top">トップへ</a>)</p>
   
 # 4. 特記事項
 Macでの動作確認なし
