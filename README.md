@@ -86,7 +86,7 @@ TODO: パッケージ管理の検証が終わったら
 
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
 
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
+❯ `tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2`
 .
 ├── .devcontainer
 │   └── devcontainer.json
